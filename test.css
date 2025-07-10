@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.input-wrapper span {
+  background-color: #eef6fa;
+  padding: 8px 12px;
+  color: #333;
+  border-right: 1px solid #ccc;
+}
+
+.input-wrapper input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  flex: 1;
+  font-size: 14px;
+}
+
+.input-wrapper input::placeholder {
+    color: #aaa;
+  }
